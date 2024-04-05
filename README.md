@@ -11,15 +11,15 @@ The project uses OTP (One-Time Pad) and RSA encryption algorithms, as well as se
 The server program for the project runs in the Go language environment, and you need to install the Go language before installation.
 First, you need to get the source code from GitHub. You can use Git to clone the source code locally:
 
-` ` `
+```
 git clone https://github.com/Microsoft-tele/OneTimePad_LocalRouter
-` ` `
+```
 
 Go to the project directory and compile and run the server program with the following command:
-` ` `
+```
 go build
 ./OneTimePadLocalRouter
-` ` `
+```
 
 The program listens to the local port 8080 and starts running. You can now use the program by pointing your browser to http://localhost:8080.
 
